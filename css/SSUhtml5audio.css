@@ -1,0 +1,89 @@
+body{
+
+   
+    background-color: #000;
+	}
+	#container{
+		 background: url(../img/logo.jpg);
+  
+    background-repeat: no-repeat;
+    background-position: center;
+		position: relative;
+	margin: 0 auto;
+    width: 686px;
+    height: 686px;
+    /*background-color: rgba(120,120,120,0.6);*/
+	}
+	
+	
+	.material-icons {
+    font-size: 35px !important;
+	}
+/*Play button*/
+#songPlay{
+
+}
+/*Pause button*/
+#songPause{
+
+}
+/*Stop button*/
+#songStop{
+
+}
+.clickable{
+	cursor:pointer;
+}
+/*Play/Pause button*/
+#songPlayPause{
+       position: absolute;
+        left: 400px;
+    top: 250px;
+    color: #cca5da;
+}
+#songPlayPause a{
+	color:#cab9db;
+}
+/*Song location slider*/
+#songSlider{
+    width: 250px;
+    height: 10px;
+    background-color: black;
+	display: none;;
+}
+/*Track progress bar*/
+#trackProgress{
+    width: 0px;
+    height: 10px;
+    background-color: red;
+}
+/*Volume Up Button*/
+#volumeUp{
+position: absolute;
+   top: 350px;
+    left: 530px;
+    color: #e1aafb;
+}
+/*Volume Down Button*/
+#volumeDown{
+position: absolute;
+  top: 350px;
+    left: 140px;
+
+	color: #7fa9d3;
+}
+
+/*Volume Meter*/
+#volumeMeter{
+        height: 10px;
+    background:linear-gradient(to right, #8ccbea , #2c5c9c);
+    position: relative;
+    top: 550px;
+    width: 686px;
+    
+}
+/*Volume Location Meter*/
+#volumeStatus{
+    height: 10px;
+    background: linear-gradient(to right, #e0b9f8 , #8a5eaf);
+}
